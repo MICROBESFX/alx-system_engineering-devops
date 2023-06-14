@@ -1,3 +1,2 @@
 #!/bin/bash
 find . -type f -iname "*.gif" | sort -f -k1 | sed 's/\.[^.]*$//' > gif_files.txt
-```f
